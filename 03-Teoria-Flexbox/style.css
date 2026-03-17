@@ -36,13 +36,13 @@ body {
   border-radius: 12px;
 
   /* PASO 1: Encender Flexbox (Las cajas se ponen en fila automáticamente) */
-  /* display: flex; */
+  /*display: flex; */
 
   /* PASO 2: Dirección (Probar cambiar a 'column') */
-  /* flex-direction: row; */
+   flex-direction: row; */
 
   /* PASO 3: Espaciado (hueco entre las cajas sin usar margin) */
-  /* gap: 20px; */
+   /*gap: 20px; 
 
   /* PASO 4: Eje Principal (Horizontal) -> Descomentar uno por uno */
   /* justify-content: center; */
