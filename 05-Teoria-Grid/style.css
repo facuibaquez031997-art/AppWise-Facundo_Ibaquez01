@@ -9,22 +9,22 @@
   padding: 20px;
 
   /* PASO 1: Encender el motor Grid */
-  /* display: grid; */
+   display: grid; 
 
   /* PASO 2: Mezclar medidas fijas con fracciones (Sidebar - Contenido - Sidebar) */
-  /* grid-template-columns: 200px 1fr 200px; */
+   /*grid-template-columns: 200px 1fr 200px; 
 
   /* PASO 3: Atajo con repeat (3 columnas iguales) */
-  /* grid-template-columns: repeat(3, 1fr); */
+  /*grid-template-columns: repeat(3, 1fr);
 
   /* PASO 4: Separación entre celdas (Gap) */
-  /* gap: 20px; */
+   gap: 20px;
 
   /* ==========================================
        PASO 5: EL SANTO GRIAL RESPONSIVE 🏆
        (Comenta el Paso 2 y 3, y enciende este. Luego achica la pantalla del navegador)
        ========================================== */
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
 }
 
 /* =======================================================
@@ -36,6 +36,6 @@
   border-color: #fbbf24;
 
   /* PASO 6: Hacer que la tarjeta ocupe 2 columnas (o filas!) */
-  /* grid-column: span 2; */
-  /* grid-row: span 2; */
+   grid-column: span 2; 
+   grid-row: span 2; 
 }
