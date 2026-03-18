@@ -49,14 +49,14 @@ body {
   width: 150px;
 
   /* PASO 1: Relative (Se mueve desde su origen, pero deja el hueco) */
-  /* position: relative; */
-  /* top: 30px; */
-  /* left: 50px; */
+   /*position: relative; 
+   top: 30px; 
+   left: 50px; 
 
   /* PASO 2: Absolute (Comenta el Paso 1 y enciende este. Se sale del flujo) */
-  /* position: absolute; */
-  /* top: -20px; */ /* ¡Se puede salir del padre con valores negativos! */
-  /* right: -20px; */
+   /*position: absolute; 
+   top: -20px;  /* ¡Se puede salir del padre con valores negativos! */
+   /*right: -20px;*/ 
 }
 
 /* =======================================================
@@ -73,9 +73,9 @@ body {
   text-decoration: none;
 
   /* Lo clavamos en la esquina inferior derecha para siempre */
-  /* position: fixed; */
-  /* bottom: 30px; */
-  /* right: 30px; */
+   /*position: fixed; 
+  bottom: 30px; 
+   right: 30px;*/ 
 }
 
 /* =======================================================
@@ -89,7 +89,7 @@ body {
   text-align: center;
 
   /* Es normal hasta que haces scroll y toca el techo (top: 0) */
-  /* position: sticky; */
-  /* top: 0; */
-  /* z-index: 100; */ /* Asegura que quede por encima del texto al hacer scroll */
+   position: sticky;
+   top: 0;
+   z-index: 100;  /* Asegura que quede por encima del texto al hacer scroll */
 }
